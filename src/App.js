@@ -27,6 +27,7 @@ export default function App() {
 }
 
 console.log(<DifferentContent test={23} />);
+console.log(DifferentContent());
 
 function Tabbed({ content }) {
   const [activeTab, setActiveTab] = useState(0);
@@ -87,7 +88,7 @@ function TabContent({ item }) {
 
       <div className="tab-undo">
         <button>Undo</button>
-        <button>Undo in 2s</button>
+        <button>Undo in 2</button>
       </div>
     </div>
   );
