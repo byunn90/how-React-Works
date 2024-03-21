@@ -88,7 +88,7 @@ function TabContent({ item }) {
 
       <div className="tab-undo">
         <button>Undo</button>
-        <button>Undo in 3s</button>
+        <button>Undo in 2s</button>
       </div>
     </div>
   );
