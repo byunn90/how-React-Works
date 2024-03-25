@@ -56,7 +56,7 @@ function Tabbed({ content }) {
 function Tab({ num, activeTab, onClick }) {
   return (
     <button
-      className={activeTab === num ? "ttab active" : "tab"}
+      className={activeTab === num ? "tab active" : "tab"}
       onClick={() => onClick(num)}
     >
       Tab {num + 1}
