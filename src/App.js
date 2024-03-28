@@ -104,7 +104,7 @@ function TabContent({ item }) {
         <div className="hearts-counter">
           <span>{likes} ❤️</span>
           <button onClick={handleInc}>+</button>
-          <button onClick={handleTrippleInc}>+++</button>
+          <button onClick={handleTrippleInc}>+++3</button>
         </div>
       </div>
 
